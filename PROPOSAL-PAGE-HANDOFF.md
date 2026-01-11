@@ -538,7 +538,7 @@ export default function ProposalPage() {
           >
             <EmbedSignDocument
               token={data.signing_token}
-              host="https://stg-app.documenso.com"
+              host="https://app.documenso.com"
               className="w-full h-full"
               cssVars={{
                 primary: '#ffffff',
@@ -575,7 +575,7 @@ export default function ProposalPage() {
 |------|-------|
 | **API Endpoint** | `https://bencrane--deals-api-api.modal.run/proposal/{deal_id}` |
 | **Signing Token Field** | `signing_token` from API response |
-| **Documenso Host** | `https://stg-app.documenso.com` (staging) |
+| **Documenso Host** | `https://app.documenso.com` (production) |
 | **Embed Component** | `<EmbedSignDocument token={...} host={...} />` |
 | **Embed Height** | `800px` fixed height container |
 

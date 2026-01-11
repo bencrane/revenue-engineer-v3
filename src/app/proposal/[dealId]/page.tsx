@@ -225,7 +225,7 @@ export default function ProposalPage() {
           >
             <EmbedSignDocument
               token={data.signing_token}
-              host="https://stg-app.documenso.com"
+              host="https://app.documenso.com"
               className="w-full h-full"
               cssVars={{
                 primary: '#ffffff',
