@@ -262,7 +262,9 @@ export default function HomePage() {
             </p>
 
             <a
-              href="#"
+              href="https://cal.com/revenue-engineer/30min?user=revenue-engineer&overlayCalendar=true"
+              target="_blank"
+              rel="noopener noreferrer"
               className={ds.components.button.primary}
             >
               Book a call
