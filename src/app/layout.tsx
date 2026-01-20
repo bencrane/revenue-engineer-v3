@@ -4,7 +4,7 @@ import { GeistMono } from "geist/font/mono";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Revenue Engineering",
+  title: "Revenue Engineer",
   description: "Proposal signing and contract management.",
 };
 
