@@ -251,8 +251,8 @@ export default function HomePage() {
         <hr className={ds.components.divider.line} />
 
         {/* CTA with Photo */}
-        <section className="flex flex-col sm:flex-row items-center gap-8 sm:gap-12">
-          <div className="flex-1 text-center sm:text-left">
+        <section className="flex flex-col sm:flex-row items-center justify-center gap-8 sm:gap-16">
+          <div className="text-center sm:text-left">
             <h2 className={cx(ds.typography.h2, ds.colors.text, "mb-6")}>
               Let's Talk
             </h2>
