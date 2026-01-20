@@ -1,11 +1,48 @@
 import { ds, cx } from "@/lib/design-system";
 import { QuoteHighlight } from "@/components/quote-highlight";
+import { BorderText } from "@/components/border-text";
 
 export default function HomePage() {
   return (
     <main className={cx(ds.colors.background, "min-h-screen")}>
-      {/* Viewport border frame - hidden on mobile */}
-      <div className="hidden sm:block fixed inset-0 pointer-events-none z-50 border-[18px] border-black" />
+      {/* Viewport border frame with text - hidden on mobile */}
+      <div className="hidden sm:block fixed inset-0 pointer-events-none z-50">
+        {/* Border */}
+        <div className="absolute inset-0 border-[26px] border-black" />
+
+        {/* Top edge */}
+        <BorderText
+          text="RevenueEngineer.com"
+          orientation="horizontal"
+          borderWidth={26}
+          className="absolute top-0 left-[26px] right-[26px]"
+        />
+
+        {/* Bottom edge */}
+        <BorderText
+          text="RevenueEngineer.com"
+          orientation="horizontal"
+          borderWidth={26}
+          className="absolute bottom-0 left-[26px] right-[26px]"
+        />
+
+        {/* Left edge */}
+        <BorderText
+          text="RevenueEngineer.com"
+          orientation="vertical"
+          borderWidth={26}
+          rotate={180}
+          className="absolute left-0 top-[26px] bottom-[26px]"
+        />
+
+        {/* Right edge */}
+        <BorderText
+          text="RevenueEngineer.com"
+          orientation="vertical"
+          borderWidth={26}
+          className="absolute right-0 top-[26px] bottom-[26px]"
+        />
+      </div>
 
       <article className={cx(ds.layout.page, "sm:py-8")}>
         {/* Hero */}
@@ -213,22 +250,32 @@ export default function HomePage() {
         {/* Divider */}
         <hr className={ds.components.divider.line} />
 
-        {/* CTA */}
-        <section className="text-center">
-          <h2 className={cx(ds.typography.h2, ds.colors.text, "mb-6")}>
-            Let's Talk
-          </h2>
+        {/* CTA with Photo */}
+        <section className="flex flex-col sm:flex-row items-center gap-8 sm:gap-12">
+          <div className="flex-1 text-center sm:text-left">
+            <h2 className={cx(ds.typography.h2, ds.colors.text, "mb-6")}>
+              Let's Talk
+            </h2>
 
-          <p className={cx(ds.typography.body, ds.colors.text, "mb-8")}>
-            If this sounds like what you need, here's my calendar.
-          </p>
+            <p className={cx(ds.typography.body, ds.colors.text, "mb-8")}>
+              If this sounds like what you need, here's my calendar.
+            </p>
 
-          <a
-            href="#"
-            className={ds.components.button.primary}
-          >
-            Book a call
-          </a>
+            <a
+              href="#"
+              className={ds.components.button.primary}
+            >
+              Book a call
+            </a>
+          </div>
+
+          <figure className="flex-shrink-0">
+            <img
+              src="/hero.jpeg"
+              alt="Ben Crane"
+              className="w-[200px] sm:w-[220px] rounded-sm"
+            />
+          </figure>
         </section>
 
         {/* Footer spacing */}
