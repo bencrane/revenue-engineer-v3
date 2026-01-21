@@ -47,7 +47,7 @@ export default function HomePage() {
       <article className={cx(ds.layout.page, "sm:py-8")}>
         {/* Hero */}
         <header>
-          <h1 className={cx(ds.typography.h1, ds.colors.text)}>
+          <h1 className={cx(ds.typography.h1, ds.colors.text, "italic")}>
             I Am Not a Natural
           </h1>
         </header>
