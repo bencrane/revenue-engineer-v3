@@ -46,8 +46,7 @@
   },
 
   "cta": {
-    "heading": "Here's my calendar.",
-    "buttonText": "Book a call",
+    "buttonText": "Book a Call",
     "buttonUrl": "https://cal.com/revenue-engineer/30min?user=revenue-engineer&overlayCalendar=true",
     "image": {
       "src": "/hero.jpeg",

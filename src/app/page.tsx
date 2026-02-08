@@ -123,11 +123,7 @@ export default function HomePage() {
         <hr className={ds.components.divider.line} />
 
         {/* CTA */}
-        <section>
-          <h2 className={cx(ds.typography.h2, ds.colors.text, "mb-6")}>
-            {content.cta.heading}
-          </h2>
-
+        <section className="text-center">
           <a
             href={content.cta.buttonUrl}
             target="_blank"
@@ -138,8 +134,6 @@ export default function HomePage() {
           </a>
         </section>
 
-        {/* Footer spacing */}
-        <div className="h-16" />
       </article>
     </main>
   );
