@@ -47,7 +47,7 @@
 
   "cta": {
     "buttonText": "Book a Call",
-    "buttonUrl": "https://cal.com/revenue-engineer/30min?user=revenue-engineer&overlayCalendar=true",
+    "buttonUrl": "https://cal.com/revenue-engineer/25min?overlayCalendar=true",
     "image": {
       "src": "/hero.jpeg",
       "alt": "Ben Crane"
