@@ -17,10 +17,10 @@
 
 export const layout = {
   /** Max content width — optimized for 45-75 characters per line */
-  maxWidth: "max-w-[65ch]",
+  maxWidth: "max-w-[67ch]",
   
   /** Full-width container with max-width constraint */
-  container: "w-full max-w-[65ch] mx-auto",
+  container: "w-full max-w-[67ch] mx-auto",
   
   /** Page padding — responsive horizontal padding */
   pagePadding: "px-6 sm:px-8 lg:px-6",
@@ -29,7 +29,7 @@ export const layout = {
   pageVerticalPadding: "py-16 sm:py-24 lg:py-32",
   
   /** Full page wrapper */
-  page: "w-full max-w-[65ch] mx-auto px-6 sm:px-8 lg:px-6 py-16 sm:py-24 lg:py-32",
+  page: "w-full max-w-[67ch] mx-auto px-6 sm:px-8 lg:px-6 py-16 sm:py-24 lg:py-32",
   
   /** Wider container for media that should "break out" slightly */
   wideContainer: "w-full max-w-[75ch] mx-auto",

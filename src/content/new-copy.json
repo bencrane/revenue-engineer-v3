@@ -10,7 +10,7 @@
   },
 
   "about": {
-    "heading": "I'm not a natural",
+    "heading": "Who I Am",
     "paragraphs": [
       "Let me be clear: I'm not an engineer by training. I've got about as much natural talent for coding as I do for Muay Thai boxing — and let's just say I'm not entering the ring anytime soon. I haven't been coding since I was wearing braces, and I can't tell you what Big O notation my code runs at.",
       "Frankly, I've got about three natural things going for me: a full head of hair, a decent jump shot, and a possibly pathological obsession with data pipelines that don't die halfway through — retries, fallback logic, and everything else that should keep you up at night, but you've probably never even heard of.",
@@ -21,8 +21,8 @@
   "whatIDo": {
     "heading": "What I Do",
     "paragraphs": [
-      "I build lean, single-operator businesses in the data and automation space — the kind that can reach $1M–$3M a year with nobody else but me, myself, and I. Right now, that's Revenue Activation and Outbound Solutions.",
-      "Sometimes I release experimental products like OverlapIQ that scratch an itch."
+      "I build lean, single-operator businesses in the data and automation space — the kind that can reach $1M–$3M a year with nobody else but me, myself, and I.",
+      "Right now, that's Revenue Activation and Outbound Solutions - sometimes I release experimental products like OverlapIQ that scratch an itch."
     ]
   },
 

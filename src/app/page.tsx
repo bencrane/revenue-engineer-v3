@@ -47,7 +47,7 @@ export default function HomePage() {
       <article className={cx(ds.layout.page, "sm:py-8")}>
         {/* Hero */}
         <header>
-          <h1 className={cx(ds.typography.h1, ds.colors.text)}>
+          <h1 className={cx(ds.typography.h1, ds.colors.text, "italic")}>
             {content.hero.heading}
           </h1>
         </header>
@@ -122,30 +122,20 @@ export default function HomePage() {
         {/* Divider */}
         <hr className={ds.components.divider.line} />
 
-        {/* CTA with Photo */}
-        <section className="flex flex-col sm:flex-row items-center justify-center gap-8 sm:gap-16">
-          <div className="text-center sm:text-left">
-            <h2 className={cx(ds.typography.h2, ds.colors.text, "mb-8")}>
-              {content.cta.heading}
-            </h2>
+        {/* CTA */}
+        <section>
+          <h2 className={cx(ds.typography.h2, ds.colors.text, "mb-6")}>
+            {content.cta.heading}
+          </h2>
 
-            <a
-              href={content.cta.buttonUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={ds.components.button.primary}
-            >
-              {content.cta.buttonText}
-            </a>
-          </div>
-
-          <figure className="flex-shrink-0">
-            <img
-              src={content.cta.image.src}
-              alt={content.cta.image.alt}
-              className="w-[200px] sm:w-[220px] rounded-sm"
-            />
-          </figure>
+          <a
+            href={content.cta.buttonUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={ds.components.button.primary}
+          >
+            {content.cta.buttonText}
+          </a>
         </section>
 
         {/* Footer spacing */}
