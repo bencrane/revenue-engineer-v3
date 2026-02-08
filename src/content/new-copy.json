@@ -1,0 +1,57 @@
+{
+  "page": "RevenueEngineer.com",
+
+  "hero": {
+    "heading": "Here's the big idea ...",
+    "paragraphs": [
+      "Most companies have a CRM, a pile of tools, and a team doing manual work to connect them. They're spending money on data they don't trust, running campaigns off lists that are half garbage, and missing signals that are right in front of them.",
+      "The space between \"we have leads\" and \"we have revenue\" is held together by string. This isn't a people problem. It's an engineering problem. And I build the systems that close it."
+    ]
+  },
+
+  "about": {
+    "heading": "I'm not a natural",
+    "paragraphs": [
+      "Let me be clear: I'm not an engineer by training. I've got about as much natural talent for coding as I do for Muay Thai boxing — and let's just say I'm not entering the ring anytime soon. I haven't been coding since I was wearing braces, and I can't tell you what Big O notation my code runs at.",
+      "Frankly, I've got about three natural things going for me: a full head of hair, a decent jump shot, and a possibly pathological obsession with data pipelines that don't die halfway through — retries, fallback logic, and everything else that should keep you up at night, but you've probably never even heard of.",
+      "I'm just a founder who taught himself this stuff because the businesses I was building demanded it."
+    ]
+  },
+
+  "whatIDo": {
+    "heading": "What I Do",
+    "paragraphs": [
+      "I build lean, single-operator businesses in the data and automation space — the kind that can reach $1M–$3M a year with nobody else but me, myself, and I. Right now, that's Revenue Activation and Outbound Solutions.",
+      "Sometimes I release experimental products like OverlapIQ that scratch an itch."
+    ]
+  },
+
+  "howIHelp": {
+    "heading": "How I Help",
+    "intro": "While my full-time focus is on building Revenue Activation and Outbound Solutions, I also work with a small number of technology companies directly.",
+    "offerings": [
+      {
+        "name": "Scoped Build",
+        "description": "You want to know when people from your top accounts are visiting your pricing page, and want to equip your salespeople with the intelligence they need to reach out productively. Defined deliverable, fixed price, I build it and hand it off."
+      },
+      {
+        "name": "Clay Enablement",
+        "description": "Your company's on Clay, but your team's burning credits on duplicate lookups when you could just be caching enrichment results in a database and running lookups against that first. I set up your workspace with pre-built templates and automated enrichment workflows, and work with your team directly to get them building on their own. Templates, recordings, and tutorials — you keep everything. For a preview of how I leverage Clay, visit ClayExpert.com."
+      },
+      {
+        "name": "Ongoing Advisory",
+        "description": "You're trying to figure out whether to invest in building your own enrichment stack with tools like Prefect, Modal and Parallel as your core components, or if a dozen Clay automations will do the trick. We get on the phone and sort it out. I've done both, and I'll know what's feasible, what's practical, and what's a pathway to idempotency hell."
+      }
+    ]
+  },
+
+  "cta": {
+    "heading": "Here's my calendar.",
+    "buttonText": "Book a call",
+    "buttonUrl": "https://cal.com/revenue-engineer/30min?user=revenue-engineer&overlayCalendar=true",
+    "image": {
+      "src": "/hero.jpeg",
+      "alt": "Ben Crane"
+    }
+  }
+}
